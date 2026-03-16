@@ -7,7 +7,7 @@ This website showcases my work, skills, and projects as a **Computer Systems Eng
 ## 🌐 Live Website
 You can view my GitHub Pages website here:
 
-👉 https://cse25-309.github.io
+👉🏽https://github.com/sibusisondebele/cse25-309/tree/main?
 
 ## 👤 About Me
 I am a Computer Systems Engineering student passionate about technology, software development, and problem solving.
