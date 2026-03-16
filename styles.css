@@ -1,71 +1,56 @@
+/* General Page Styling */
 body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-            color: #333;
-        }
-        nav {
-            background: #333;
-            color: #fff;
-            padding: 1rem 0;
-            text-align: center;
-        }
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 1rem;
-            padding: 0.5rem 1rem;
-        }
-        nav a:hover {
-            background: #555;
-            border-radius: 5px;
-        }
-        .container {
-            padding: 2rem;
-            max-width: 800px;
-            margin: auto;
-        }
-        h1, h2 {
-            color: #333;
-        }
-        #about, #contact {
-            padding-top: 50px; /* Offset for fixed header/nav */
-            margin-top: -50px; /* Helps when linking to the anchor */
-        }
-        .contact-info p {
-            margin: 0.5rem 0;
-        }
-    </style>
-</head>
-<body>
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+}
 
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-    </nav>
+/* Navbar Customization */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
 
-    <div class="container">
-        <section id="home">
-            <h1>Welcome to my simple GitHub webpage</h1>
-            <p>This is the home section of the website. Use the navigation bar above to jump to the About and Contact sections.</p>
-        </section>
+.navbar-nav .nav-link {
+    transition: 0.3s;
+}
 
-        <section id="about">
-            <h2>About Us</h2>
-        </section>
+.navbar-nav .nav-link:hover {
+    color: #0d6efd;
+}
 
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <div class="contact-info">
-                <p><strong>Email:</strong> <a href="mailto:info@example.com">info@example.com</a></p>
-                <p><strong>Phone:</strong> <a href="tel:+1234567890">+1234567890</a></p>
-                <p><strong>Address:</strong> 123 Main Street, City, Country</p>
-            </div>
-        </section>
-    </div>
+/* Page Title */
+h1 {
+    font-weight: bold;
+    color: #222;
+}
 
-</body>
-</html>
+/* Skills Section */
+.row div {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
 
+/* Hover effect for skill cards */
+.row div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 15px rgba(0,0,0,0.15);
+}
+
+/* Skill Headings */ 
+h4 {
+    color: #0d6efd;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+.footer {
+    background-color: #212529;
+    color: white;
+    padding: 15px;
+    margin-top: 40px;
+}
